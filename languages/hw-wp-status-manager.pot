@@ -1,0 +1,212 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HW WP Status Manager\n"
+"POT-Creation-Date: 2022-01-13 16:53+0100\n"
+"PO-Revision-Date: 2019-08-27 11:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_x;_n_noop\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: index.php\n"
+
+#: index.php:104
+msgid "WP Custom Status Manager"
+msgstr ""
+
+#: index.php:104
+msgid "Click the Post Type to add a new status"
+msgstr ""
+
+#: index.php:106
+msgid "Hi, here you can create your custom post status for any post type."
+msgstr ""
+
+#: index.php:113
+msgid "Post Type List"
+msgstr ""
+
+#: index.php:114
+msgid "Hidden Core Status"
+msgstr ""
+
+#: index.php:115
+msgid "Registered Custom Status(es)"
+msgstr ""
+
+#: index.php:127 index.php:355
+msgid "Yes"
+msgstr ""
+
+#: index.php:128 index.php:356
+msgid "No"
+msgstr ""
+
+#: index.php:143 index.php:719
+msgid "No custom Status yet"
+msgstr ""
+
+#: index.php:153
+msgid ""
+"That's all! All options are already saved. That's why there isn't the \"save"
+"\" button here"
+msgstr ""
+
+#: index.php:154
+msgid "Need to clean all?"
+msgstr ""
+
+#: index.php:155
+msgid ""
+"Do a backup before reset! Be careful and use this option only to clean your "
+"WordPress installation. Deletion process is not reversable and will perform:"
+msgstr ""
+
+#: index.php:157
+msgid "Deletion of plugin options"
+msgstr ""
+
+#: index.php:158
+msgid ""
+"Deletion of \"hw_wpsm\" table from your database and its contents (all "
+"custom statuses and their relative options)"
+msgstr ""
+
+#: index.php:159
+msgid "Deactivation of plugin and redirect to your Plugins admin page"
+msgstr ""
+
+#: index.php:161
+msgid ""
+"Once you have perform the reset, all post previously set with a custom "
+"status will not be deleted but you'll not be longer to show them inside the "
+"posts type list."
+msgstr ""
+
+#: index.php:162
+msgid "I understand, Reset all options and custom statuses!"
+msgstr ""
+
+#: index.php:164
+msgid "Status name"
+msgstr ""
+
+#: index.php:166
+msgid "Label singular"
+msgstr ""
+
+#: index.php:166
+msgid "example: Box"
+msgstr ""
+
+#: index.php:167
+msgid "Label plural"
+msgstr ""
+
+#: index.php:167
+msgid "example: Boxes"
+msgstr ""
+
+#: index.php:169
+msgid "Learn more about options"
+msgstr ""
+
+#: index.php:169
+msgid ""
+"Leave default if you don't know how to set these options. They will work "
+"fine on the most part of cases."
+msgstr ""
+
+#: index.php:170
+msgid "Public"
+msgstr ""
+
+#: index.php:171
+msgid "Admin all list"
+msgstr ""
+
+#: index.php:172
+msgid "Admin Status list"
+msgstr ""
+
+#: index.php:173
+msgid "Exclude from search"
+msgstr ""
+
+#: index.php:174
+msgid "Builtin"
+msgstr ""
+
+#: index.php:175
+msgid "Internal"
+msgstr ""
+
+#: index.php:176
+msgid "Protected"
+msgstr ""
+
+#: index.php:177
+msgid "Private"
+msgstr ""
+
+#: index.php:178
+msgid "Publicly queryable"
+msgstr ""
+
+#: index.php:180 index.php:425
+msgid "Save"
+msgstr ""
+
+#: index.php:181
+msgid "Delete this Status"
+msgstr ""
+
+#: index.php:228
+msgid "Status for the post type:"
+msgstr ""
+
+#: index.php:248 index.php:364
+msgid "Loading..."
+msgstr ""
+
+#: index.php:276
+msgid "Delete the status:"
+msgstr ""
+
+#: index.php:308
+msgid "Loading options for the status:"
+msgstr ""
+
+#: index.php:320
+msgid "Edit the status:"
+msgstr ""
+
+#: index.php:324
+msgid ""
+"You cannot modify the singular label, since WP would create a new status-slug"
+msgstr ""
+
+#: index.php:400
+msgid "Saving..."
+msgstr ""
+
+#: index.php:438
+msgid "Reset all plugin data? Type \"DELETE\" to confirm this action"
+msgstr ""
+
+#: index.php:485
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: index.php:546
+msgid "Update"
+msgstr ""

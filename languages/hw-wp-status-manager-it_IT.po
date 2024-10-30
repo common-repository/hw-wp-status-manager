@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HW WP Status Manager\n"
+"POT-Creation-Date: 2022-01-13 16:53+0100\n"
+"PO-Revision-Date: 2022-01-13 16:54+0100\n"
+"Last-Translator: Gianluca Marzaro <info@hardweb.it>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_x;_n_noop\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: index.php\n"
+
+#: index.php:104
+msgid "WP Custom Status Manager"
+msgstr "WP Custom Status Manager"
+
+#: index.php:104
+msgid "Click the Post Type to add a new status"
+msgstr "Clicca un Post Type per creare un nuovo status"
+
+#: index.php:106
+msgid "Hi, here you can create your custom post status for any post type."
+msgstr ""
+"Ciao, qui puoi creare i tuoi \"stati\" personalizzati per qualsiasi post "
+"type."
+
+#: index.php:113
+msgid "Post Type List"
+msgstr "Lista dei Post Type"
+
+#: index.php:114
+msgid "Hidden Core Status"
+msgstr "Nascondi core status"
+
+#: index.php:115
+msgid "Registered Custom Status(es)"
+msgstr "Status personali registrati"
+
+#: index.php:127 index.php:355
+msgid "Yes"
+msgstr "Si"
+
+#: index.php:128 index.php:356
+msgid "No"
+msgstr "No"
+
+#: index.php:143 index.php:719
+msgid "No custom Status yet"
+msgstr "Nessuno Status personalizzato"
+
+#: index.php:153
+msgid ""
+"That's all! All options are already saved. That's why there isn't the \"save"
+"\" button here"
+msgstr ""
+"Non devi fare altro. Tutte le opzioni sono già salvate. Ecco perché qui non "
+"c'è il pulsante \"salva\""
+
+#: index.php:154
+msgid "Need to clean all?"
+msgstr "Devi fare una pulizia?"
+
+#: index.php:155
+msgid ""
+"Do a backup before reset! Be careful and use this option only to clean your "
+"WordPress installation. Deletion process is not reversable and will perform:"
+msgstr ""
+"Fai un backup prima di cancellare! Usa questa opzione solo se devi ripulire "
+"la tua installazione di Wordpress. Il processo di eliminazione non è "
+"reversibile e fa queste cose:"
+
+#: index.php:157
+msgid "Deletion of plugin options"
+msgstr "Eliminazione delle opzioni del plugin"
+
+#: index.php:158
+msgid ""
+"Deletion of \"hw_wpsm\" table from your database and its contents (all "
+"custom statuses and their relative options)"
+msgstr ""
+"Eliminazione della tabella \"hw_wpsm\" dal tuo database e tutto il suo "
+"contenuto (stati personalizzati e loro opzioni)"
+
+#: index.php:159
+msgid "Deactivation of plugin and redirect to your Plugins admin page"
+msgstr ""
+"Disattivazione del plugin e redirect alla pagina dei Plugin di WordPress"
+
+#: index.php:161
+msgid ""
+"Once you have perform the reset, all post previously set with a custom "
+"status will not be deleted but you'll not be longer to show them inside the "
+"posts type list."
+msgstr ""
+"Una volta eseguito il reset, tutti i post precedentemente salvati con uno "
+"status personalizzato non verranno eliminati, ma non sarai più in grado di "
+"vederli all'interno della lista del post type."
+
+#: index.php:162
+msgid "I understand, Reset all options and custom statuses!"
+msgstr "Ho capito, Resetta tutte le opzioni e gli stati personalizzati!"
+
+#: index.php:164
+msgid "Status name"
+msgstr "Nome dello Stato"
+
+#: index.php:166
+msgid "Label singular"
+msgstr "Nome al singolare"
+
+#: index.php:166
+msgid "example: Box"
+msgstr "esempio: Pagata"
+
+#: index.php:167
+msgid "Label plural"
+msgstr "Nome al plurale"
+
+#: index.php:167
+msgid "example: Boxes"
+msgstr "esempio: Pagate"
+
+#: index.php:169
+msgid "Learn more about options"
+msgstr "Scopri di più su queste opzioni"
+
+#: index.php:169
+msgid ""
+"Leave default if you don't know how to set these options. They will work "
+"fine on the most part of cases."
+msgstr ""
+"Lascia tutto così com'è se non conosci queste opzioni. Funzioneranno "
+"correttamente nella maggior parte dei casi."
+
+#: index.php:170
+msgid "Public"
+msgstr "Public"
+
+#: index.php:171
+msgid "Admin all list"
+msgstr "Admin all list"
+
+#: index.php:172
+msgid "Admin Status list"
+msgstr "Admin Status list"
+
+#: index.php:173
+msgid "Exclude from search"
+msgstr "Exclude from search"
+
+#: index.php:174
+msgid "Builtin"
+msgstr "Builtin"
+
+#: index.php:175
+msgid "Internal"
+msgstr "Internal"
+
+#: index.php:176
+msgid "Protected"
+msgstr "Protected"
+
+#: index.php:177
+msgid "Private"
+msgstr "Private"
+
+#: index.php:178
+msgid "Publicly queryable"
+msgstr "Publicly queryable"
+
+#: index.php:180 index.php:425
+msgid "Save"
+msgstr "Salva"
+
+#: index.php:181
+msgid "Delete this Status"
+msgstr "Elimina questo Status"
+
+#: index.php:228
+msgid "Status for the post type:"
+msgstr "Status relativi al post type:"
+
+#: index.php:248 index.php:364
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: index.php:276
+msgid "Delete the status:"
+msgstr "Eliminare lo status:"
+
+#: index.php:308
+msgid "Loading options for the status:"
+msgstr "Caricamento opzioni dello status:"
+
+#: index.php:320
+msgid "Edit the status:"
+msgstr "Modifica lo status:"
+
+#: index.php:324
+msgid ""
+"You cannot modify the singular label, since WP would create a new status-slug"
+msgstr ""
+"Non puoi modificare l'etichetta al \"singolare\", poiché WP creerebbe un "
+"nuovo status slug"
+
+#: index.php:400
+msgid "Saving..."
+msgstr "Sto salvando..."
+
+#: index.php:438
+msgid "Reset all plugin data? Type \"DELETE\" to confirm this action"
+msgstr "Eliminare tutti i dati del plugin? Digita \"DELETE\" per confermare"
+
+#: index.php:485
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgstr " <span class=\"count\">(%s)</span>"
+
+#: index.php:546
+msgid "Update"
+msgstr "Aggiorna"
+
+#~ msgid "Save post"
+#~ msgstr "Salva il post"
